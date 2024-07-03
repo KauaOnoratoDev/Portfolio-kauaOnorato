@@ -20,6 +20,7 @@ Python 3.5>
 2. Install dependencies:
 
    ```shell
+   cd portfolio-django
     pip install -r requirements.txt
    ```
 
