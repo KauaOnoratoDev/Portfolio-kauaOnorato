@@ -1,0 +1,84 @@
+@use 'variaveis';
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: variaveis.$corDeFundo;
+    z-index: 1;
+    transition: .3s ease;
+    
+
+    &--is-hidden {
+        background-color: transparent;
+        transition: .3s ease;
+
+        .header__logo, .header__links__item:first-child {
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+
+    &__container {
+        padding: 8px 36px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width: 768px) {
+            padding: 0 12px 0 20px;
+        }
+    }
+
+    &__logo {
+        max-width: 80px;
+        width: 100%;
+        margin: 5px;
+    }
+
+    &__links {
+        display: flex;
+
+        &__item {
+            margin: 5px;
+        }
+    }
+
+    .button {
+        padding: 8px 14px;
+        text-decoration: none;
+        letter-spacing: 1px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        transition: .3s ease;
+
+        @media (max-width: 768px) {
+            font-size: 13px;
+            padding: 8px 11px;
+            height: 40px;
+            letter-spacing: 0;
+        }
+
+        &__blue {
+            background-color: rgb(4, 37, 221);
+            border-color: rgb(4, 37, 221);
+            
+            &:hover {
+            background-color: lighten(rgb(4, 37, 221), 3%);
+            }
+        }
+
+        &__dark {
+            background-color: transparent;
+            border-color: variaveis.$corTextoPrincipal;
+
+            &:hover {
+                background-color: variaveis.$corTextoPrincipal;
+                color: variaveis.$corDeFundo;
+            }
+        }
+    }
+
+}
