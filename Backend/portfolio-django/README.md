@@ -6,7 +6,6 @@ Portfolio Django from Backend Python course from EBAC
 
 ```
 Python 3.5>
-
 ```
 
 ## Quickstart
