@@ -1,8 +1,24 @@
-# React + Vite
+# Calculadora IMC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A BMI calculator powered by Vite
 
-Currently, two official plugins are available:
+## Quickstart
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone this project
+
+   ```shell
+   git clone https://github.com/KauaOnoratoDev/Imc-React.git
+   ```
+
+2. Install dependencies:
+
+   ```shell
+    cd Imc-React
+   npm install
+   ```
+
+3. Run local dev server:
+
+   ```shell
+   npm run dev
+   ```
