@@ -21,7 +21,7 @@ Poetry
 2. Install dependencies:
 
    ```shell
-   cd mysite/mysite
+   cd twitter/mysite/mysite
    poetry install
    ```
 
