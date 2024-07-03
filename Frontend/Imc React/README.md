@@ -13,7 +13,7 @@ A BMI calculator powered by Vite
 2. Install dependencies:
 
    ```shell
-    cd Imc-React
+   cd Imc-React
    npm install
    ```
 
