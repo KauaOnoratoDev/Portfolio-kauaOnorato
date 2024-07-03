@@ -43,8 +43,6 @@ Aqui estão algumas das tecnologias e ferramentas que eu utilizo frequentemente:
 
 ## 📈 Estatísticas do GitHub
 
-## 📈 Estatísticas do GitHub
-
 ![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=KauaOnoratoDev&show_icons=true&theme=radical)
 
 ![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=KauaOnoratoDev&layout=compact&theme=radical)
